@@ -28,7 +28,7 @@ export const config = /*#__PURE__*/configuration({
     },
     favicon: 'src/assets/favicon.ico',
     meta: {
-      keywords: ['smart','tech','programs','made','by','me and my friends'],
+      keywords: ['software', 'development', 'functional', 'programming', 'Tyson', 'Williams'],
     },
   },
   plugins: [
@@ -36,7 +36,7 @@ export const config = /*#__PURE__*/configuration({
       assets: [ 'src/assets' ],
       feed: {
         url: 'https://tysonwilliams.coding.blog',
-        title: 'LG(one smiley guy)',
+        title: 'Tyson Williams',
         exclude: [
           'archive.md',
           'about.md',
@@ -44,7 +44,7 @@ export const config = /*#__PURE__*/configuration({
         ]
       }
     }),
-    googleAnalytics("")
+    googleAnalytics("G-N68CM042GN")
   ],
   markdown: {
     customComponents: {
