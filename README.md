@@ -1,4 +1,4 @@
-# Credit to @TysonMN for this!!!
+# Credit to [**`@TysonMN`**](https://github.com/TysonMN) for this!!!
 
 ## Essential
 
@@ -63,4 +63,4 @@ Of course GitHub also plays a crucial role.  In addition to hosting the comment
 
 # Improvements?
 
-Is there some improvement that you would like to see in my blog?  You can tell me about it by [creating an issue](https://github.com/TysonMN/tyson-williams-blog/issues/new) or you can make the improvement yourself and then send me a [pull request](https://github.com/TysonMN/tyson-williams-blog/compare).
+Come on now, you can make an issue/discussion and if ***YOU*** yourself can do it, fork, make the change and put a PR here!
