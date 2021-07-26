@@ -4,6 +4,9 @@
 
 > :Collapse label=2021, default=open
 >
+> > :Collapse label=July, default=open 
+> > - July 26 of 2021 » [Blog 1](/2021-07-26-blog-1)
+
 > > :Collapse label=June, default=open
 <!-- > > - June 21, 2021 » [Lock Hunter](/2021-06-21_lock_hunter) -->
 >
