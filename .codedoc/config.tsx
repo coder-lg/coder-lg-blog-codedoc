@@ -36,7 +36,7 @@ export const config = /*#__PURE__*/configuration({
       assets: [ 'src/assets' ],
       feed: {
         url: 'https://tysonwilliams.coding.blog',
-        title: 'Tyson Williams',
+        title: 'LG',
         exclude: [
           'archive.md',
           'about.md',
@@ -44,7 +44,7 @@ export const config = /*#__PURE__*/configuration({
         ]
       }
     }),
-    googleAnalytics("G-N68CM042GN")
+    googleAnalytics("")
   ],
   markdown: {
     customComponents: {
