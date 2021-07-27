@@ -1,4 +1,4 @@
-# DevOps
+# credits to [`@TysonMN`](https://GitHub.com/TysonMN) for the blog!
 
 ## Essential
 
@@ -59,8 +59,8 @@ Support for comments on posts is powered by utterances.  The comments are store
 
 ### GitHub
 
-Of course GitHub also plays a crucial role.  In addition to hosting the comments in select issues, all the content is committed into this repo.  The website is redeployed shortly after `master` is updated.
+Of course GitHub also plays a crucial role.  In addition to hosting the comments in select issues, all the content is committed into this repo.  The website is redeployed shortly after I activate my non-commited batch file that has a curl command to send a request. Useful for `suspense`
 
 # Improvements?
 
-Is there some improvement that you would like to see in my blog?  You can tell me about it by [creating an issue](https://github.com/TysonMN/tyson-williams-blog/issues/new) or you can make the improvement yourself and then send me a [pull request](https://github.com/TysonMN/tyson-williams-blog/compare).
+Is there some improvement that you would like to see in my blog?  You can tell me about it by [creating an issue](https://github.com/coder-lg/coder-lg-blog-codedoc/issues/new) or you can make the improvement yourself and then send me a [pull request](https://github.com/coder-lg-blog-codedoc/compare).
