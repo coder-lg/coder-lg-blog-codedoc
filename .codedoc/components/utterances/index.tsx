@@ -20,7 +20,7 @@ export function Utterances(
   const attributes = {
     'data-repo': 'coder-lg/my-blog-comments',
     'data-issue-term': 'title',
-    'data-label': 'mainblog-codedoc',
+    'data-label': 'mainblog-codedoc-edition',
     'data-theme': theme,
     'crossorigin': 'anonymous'
   }
