@@ -4,7 +4,7 @@
 
 # Latest Posts
 
-> :ArticleCard src=/2021-07-26-blog-1
+> :ArticleCard src=/2021-07-26_mdch1
 
 See the [archive](/archive) for older posts.
 
