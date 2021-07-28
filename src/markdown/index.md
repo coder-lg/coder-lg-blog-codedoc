@@ -5,6 +5,7 @@
 # Latest Posts
 
 > :ArticleCard src=/2021-07-26_mdch1
+> :ArticleCard src=/2021-07-27_mdch2
 
 See the [archive](/archive) for older posts.
 

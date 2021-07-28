@@ -5,7 +5,8 @@
 > :Collapse label=2021, default=open
 >
 > > :Collapse label=July, default=open 
-> > - July 26 of 2021 » [Markdown: Chapter 1](/2021-07-26_mdch1)
+> > - July 27 of 2021 » [Markdown: Specials in a Markdown file and syntax](/2021-07-27_mdch2)
+> > - July 26 of 2021 » [Markdown: Introduction](/2021-07-26_mdch1)
 
 > > :Collapse label=June, default=open
 <!-- > > - June 21, 2021 » [Lock Hunter](/2021-06-21_lock_hunter) -->
