@@ -27,3 +27,4 @@ jobs:
         npm i -g @codedoc/cli
         codedoc install
         codedoc update
+        codedoc build
