@@ -28,14 +28,14 @@ export const config = /*#__PURE__*/configuration({
     },
     favicon: 'src/assets/favicon.ico',
     meta: {
-      keywords: ['software', 'development', 'functional', 'programming', 'Tyson', 'Williams'],
+      keywords: ['tech','lessons','markdown','lord','LG'],
     },
   },
   plugins: [
     codingBlog({
       assets: [ 'src/assets' ],
       feed: {
-        url: 'https://tysonwilliams.coding.blog',
+        url: 'https://coderlg.coding.blog',
         title: 'LG',
         exclude: [
           'archive.md',
