@@ -4,6 +4,8 @@
 
 # Latest Posts
 
+> :ArticleCard src=/2021-08-03_batch1
+
 > :ArticleCard src=/2021-07-27_mdch2
 
 > :ArticleCard src=/2021-07-26_mdch1
