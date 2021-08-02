@@ -1,3 +1,6 @@
+We will hit 100 commits in one WEEK?! I have 75 commits ALREADY?! OH. MY. GOD.
+
+Let's hit 100 commits in a MONTH :boom:
 # credits to [`@TysonMN`](https://GitHub.com/TysonMN) for the blog!
 
 ## Essential
