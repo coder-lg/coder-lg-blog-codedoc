@@ -39,8 +39,8 @@ export const config = /*#__PURE__*/configuration({
         title: 'LG',
         exclude: [
           'archive.md',
-          'about.md',
-          '2020-07-29_everything.md'
+          'about.md'  //,
+          // '2020-07-29_everything.md'
         ]
       }
     }),
