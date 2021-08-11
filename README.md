@@ -10,7 +10,7 @@ To locally host this site, follow these steps.
 ### First time
 
 Clone this repo and execute
-```
+```bash
 npm i -g @codedoc/cli
 codedoc install
 ```
@@ -20,7 +20,7 @@ to obtain all npm dependencies.
 ### Every time
 
 Execute
-```
+```bash
 codedoc serve
 ```
 
