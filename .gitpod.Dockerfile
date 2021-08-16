@@ -2,7 +2,7 @@ FROM gitpod/workspace-full
 
 # Install custom tools, runtime, etc.
 
-RUN bash gitpodDockerfile.sh
+RUN bash /workspace/coder-lg-blog-codedoc/gitpodDockerfile.sh
 
 # RUN npm i -g @codedoc/cli
 # RUN codedoc install
