@@ -1,6 +1,6 @@
 [The Homepage](/)
 [My About Page](/about)
-[The BlogArchive](/archive)
+[The Blog Archive](/archive)
 
 <hr>
 Feeds and redirects
