@@ -4,6 +4,7 @@ image:
 # tasks for gitpod
 
 tasks:
-  - init: codedoc install
-    command: echo "Installed the dependencies, serving in another terminal..." && exit
-  - command: codedoc s
+  - init: |
+      codedoc install
+      echo "Dependencies installed, serving..."
+    command: codedoc serve
