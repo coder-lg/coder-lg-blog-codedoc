@@ -1,6 +1,11 @@
 <!-- We will hit 100 commits in one WEEK?! I have 75 commits ALREADY?! OH. MY. GOD. -->
 
-Let's hit 100 commits before September 30 :boom: :rocket: 🌩️
+<!-- Let's hit 100 commits before September 30 :boom: :rocket: 🌩️ -->
+# Memorable Times...
+
+- On 17 of August on 2021, we hit ***102*** commits. 102?! That is a `!!` move!
+
+
 # credits to [***`@TysonMN`***](https://GitHub.com/TysonMN) for the blog!
 
 ## Essential
