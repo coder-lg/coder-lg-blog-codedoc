@@ -10,6 +10,8 @@ FROM gitpod/workspace-full
 RUN node --version
 
 RUN npm i -g @codedoc/cli
+RUN echo "Codedoc Installed, now activating Gitpod..."
+
 # RUN codedoc install
 # RUN echo "installed, activating served site"
 # RUN codedoc s
