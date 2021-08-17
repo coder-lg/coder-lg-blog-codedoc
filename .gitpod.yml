@@ -1,2 +1,9 @@
 image:
   file: .gitpod.Dockerfile
+
+# tasks for gitpod
+
+tasks:
+  - init: codedoc install
+    command: echo "Installed the dependencies, serving in another terminal..." && exit
+  - command: codedoc s
