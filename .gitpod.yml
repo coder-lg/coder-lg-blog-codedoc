@@ -4,20 +4,34 @@ image:
 # tasks for gitpod
 
 tasks:
+    # NodeJS work(commented out, use at your own risk)
+  # - init: |
+  #     sudo apt-get install curl software-properties-common 
+  #     curl -sL https://deb.nodesource.com/setup_16.x | sudo bash - 
+  #     sudo apt-get install nodejs 
+  #     echo "NodeJS 16 installed, check the version"
+  #   command: node --version && npm --version 
+    
+    # Codedoc stuff
   - init: |
       codedoc install
       echo "Dependencies installed, serving..."
     command: codedoc serve
 
+# GitHub
 github:
   prebuilds:
     # enable for the master/default branch (defaults to true)
     master: true
     # enable for all branches in this repo (defaults to false)
-    branches: false
+    branches: true
     # enable for pull requests coming from this repo (defaults to true)
     pullRequests: true
-    # add a check to pull requests (defaults to true)
-    addCheck: true
-    # add a "Review in Gitpod" button as a comment to pull requests (defaults to false)
+    # enable for pull requests coming from forks (defaults to false)
+    pullRequestsFromForks: true
+    # add a "Review in Gitpod" button as a comment to pull requests (defaults to true)
     addComment: true
+    # add a "Review in Gitpod" button to pull requests (defaults to false)
+    addBadge: true
+    # add a label once the prebuild is ready to pull requests (defaults to false)
+    addLabel: prebuilt-in-gitpod
