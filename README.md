@@ -6,7 +6,9 @@
 - On 17 of August on 2021, we hit ***102*** commits. 102?! That is a `!!` move! And it's not even 31st of September!
 
 
-# For going to my Gitpod. If you see a [`typo`](https://github.com/im-coder-lg/coder-lg-blog-codedoc/blob/master/README.md#improvements), click the SVG, the website will be served automatically, and it is secure. You must login to Gitpod via GitHub.
+# For going to the Gitpod environment.
+
+If you see a [`typo`](https://github.com/im-coder-lg/coder-lg-blog-codedoc/blob/master/README.md#improvements), click the SVG, the website will be served automatically, and it is secure. You must login to Gitpod via GitHub.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/im-coder-lg/coder-lg-blog-codedoc)
 
