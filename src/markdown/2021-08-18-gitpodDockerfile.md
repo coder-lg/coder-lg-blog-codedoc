@@ -5,7 +5,7 @@
 > Gitpod. And the automation.
 
 > :Author name=LG,
->         date=2021-08-20,
+>         date=2021-08-18,
 >         avatar=src/assets/images/me.jpg
 
 Back after a LONG time! We hit 100+ commits now! And this is a special blog.
@@ -217,6 +217,7 @@ Made and deployed by [`coding.blog`](https://coding.blog/) and CODEDOC
 > > :InDark
 > >
 > > > :Utterances theme=github-dark
+
 
 # Footnotes
 
