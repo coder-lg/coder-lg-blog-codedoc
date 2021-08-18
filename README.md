@@ -78,3 +78,5 @@ Of course GitHub also plays a crucial role.  In addition to hosting the comment
 # Improvements?
 
 Is there some improvement that you would like to see in my blog?  You can tell me about it by [creating an issue](https://github.com/coder-lg/coder-lg-blog-codedoc/issues/new) or you can make the improvement yourself and then send me a [pull request](https://github.com/coder-lg-blog-codedoc/compare).
+
+Edit here: [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/im-coder-lg/coder-lg-blog-codedoc)
