@@ -1,4 +1,4 @@
-<!-- > :Hero src=src/assets/images/batch-file.png -->
+> :Hero src=src/assets/images/gitpod thumbnail.png
 
 > :Title
 >
