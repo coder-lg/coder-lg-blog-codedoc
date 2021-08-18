@@ -1,3 +1,5 @@
+# README.md
+
 <!-- We will hit 100 commits in one WEEK?! I have 75 commits ALREADY?! OH. MY. GOD. -->
 # The milestones
 - Let's hit 100 commits before September 30 :boom: :rocket: 🌩️
