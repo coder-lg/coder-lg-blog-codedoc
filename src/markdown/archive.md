@@ -7,6 +7,7 @@
 <!-- > > :Collapse label=August, default=open
 -->
 > > :Collapse label=July, default=open 
+> > - August 20 of 2021 » [Gitpod. And the automation.](/2021-08-18-gitpodDockerfile)
 > > - July 31 of 2021 » [Batch File: What it is and how to **make** it](/2021-07-31-batch1)
 > > - July 27 of 2021 » [Markdown: Specials in a Markdown file and syntax](/2021-07-27_mdch2)
 > > - July 26 of 2021 » [Markdown: Introduction](/2021-07-26_mdch1)
