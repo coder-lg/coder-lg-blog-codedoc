@@ -18,7 +18,7 @@ export function Utterances(
   let theme = 'github-light';
   if (options && options.theme && options.theme !== '') theme = options.theme;
   const attributes = {
-    'data-repo': 'im-coder-lg/my-blog-comments',
+    'data-repo': 'coder-lg/my-blog-comments',
     'data-issue-term': 'title',
     'data-label': 'mainblog-codedoc-edition',
     'data-theme': theme,
