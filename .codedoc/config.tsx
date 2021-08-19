@@ -53,12 +53,12 @@ export const config = /*#__PURE__*/configuration({
       SeeTypo$
     }
   },
-  misc: {
-   github: {
-     user: 'im-coder-lg',          // --> name of the user on GitHub owning the repo
-     repo: 'coder-lg-blog-codedoc',         // --> name of the repo on GitHub
-    },
-  // ...
-  },
-  //...
+  // misc: {
+  //  github: {
+  //    user: 'im-coder-lg',          // --> name of the user on GitHub owning the repo
+  //    repo: 'coder-lg-blog-codedoc',         // --> name of the repo on GitHub
+  //   },
+  // // ...
+  // },
+  // //...
   });
