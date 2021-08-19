@@ -31,6 +31,15 @@ export const config = /*#__PURE__*/configuration({
       keywords: ['tech','lessons','markdown','lord','LG'],
     },
   },
+    misc: {
+     github: {
+       user: 'im-coder-lg',          // --> name of the user on GitHub owning the repo
+       repo: 'coder-lg-blog-codedoc',         // --> name of the repo on GitHub
+      },
+    // ...
+    },
+  //...
+  });
   plugins: [
     codingBlog({
       assets: [ 'src/assets' ],
