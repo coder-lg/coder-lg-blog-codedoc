@@ -2,7 +2,9 @@ FROM gitpod/workspace-full
 
 USER root
 
-RUN apt-get update && apt update && apt-get upgrade && apt upgrade
+RUN apt-get update && apt update 
+
+# && apt-get upgrade && apt upgrade
 
 # Install Dropbear SSH server
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -yq \
