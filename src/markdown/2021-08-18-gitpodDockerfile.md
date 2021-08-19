@@ -1,4 +1,8 @@
-> :Hero src=src/assets/images/gitpod thumbnail.png
+> :Hero src=src/assets/images/gitpod thumbnail.png,
+>       mode=dark
+
+> :Hero src=src/assets/images/gitpod vscode edition.PNG,
+>       mode=light
 
 > :Title
 >
