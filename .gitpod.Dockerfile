@@ -1,18 +1,18 @@
 FROM gitpod/workspace-full
 
-USER root
+# USER root
 
-RUN apt-get update && apt update 
+# RUN apt-get update && apt update 
 
 # && apt-get upgrade && apt upgrade
 
 # Install Dropbear SSH server
-RUN DEBIAN_FRONTEND=noninteractive apt-get install -yq \
-        dropbear \
-    && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/*
+# RUN DEBIAN_FRONTEND=noninteractive apt-get install -yq \
+#         dropbear \
+#     && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/*
 
-# Install Chisel
-RUN curl https://i.jpillora.com/chisel! | bash
+# # Install Chisel
+# RUN curl https://i.jpillora.com/chisel! | bash
 
 # Install custom tools, runtime, etc.
 
