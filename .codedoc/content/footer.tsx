@@ -54,19 +54,19 @@ export function Footer(this: ThemedComponentThis, config: CodedocConfig, rendere
   const classes = this.theme.classes(style);
   return <_Footer>
     <a href="https://github.com/im-coder-lg" target="_blank" class={classes.imgLink}>
-      <img src="/img/svg/GitHub-Light.svg" class="dark"/>
-      <img src="/img/svg/GitHub-Dark.svg" class="light"/>
+      <img src="/assets/img/svg/GitHub-Light.svg" class="dark"/>
+      <img src="/assets/img/svg/GitHub-Dark.svg" class="light"/>
     </a>
     <a href="https://coderlg.coding.blog/_feed.rss" target="_blank" class={classes.imgLink}>
-      <img src="/img/svg/rss-dark.svg" class="light"/>
-      <img src="/img/svg/rss-light.svg" class="dark"/>
+      <img src="/assets/img/svg/rss-dark.svg" class="light"/>
+      <img src="/assets/img/svg/rss-light.svg" class="dark"/>
       {/* <img src="img/svg/icons8-rss-96.svg"/> */}
     </a>
     <a href="https://matrix.to/#/@coder-lg:matrix.org" target="_blank" class={classes.imgLink}>
-      <img src="/img/svg/matrix-social.svg"/>
+      <img src="/assets/img/svg/matrix-social.svg"/>
     </a>
     <a href="https://gitter.im/coder-lg/community" target="_blank" class={classes.imgLink}>
-      <img src="/img/svg/gitter-social.svg"/>
+      <img src="/assets/img/svg/gitter-social.svg"/>
     </a>
   </_Footer>;
 }
