@@ -53,10 +53,14 @@ const style = themedStyle<CodedocTheme>(() => ({
 export function Footer(this: ThemedComponentThis, config: CodedocConfig, renderer: any) {
   const classes = this.theme.classes(style);
   return <_Footer>
-    <a href="https://github.com/CONNECT-platform/coding-blog" target="_blank" class={classes.imgLink}>
-      <img src="/img/social/github-light.svg" class="light"/>
-      <img src="/img/social/github-dark.svg" class="dark"/>
+    <a href="https://github.com/im-coder-lg" target="_blank" class={classes.imgLink}>
+      <img src="/img/social/GitHub-Light.svg" class="dark"/>
+      <img src="/img/social/GitHub-Dark.svg" class="light"/>
     </a>
-    <a href="https://coderlg.coding.blog/_feed.rss" target="_blank">RSS</a>
+    <a href="https://coderlg.coding.blog/_feed.rss" target="_blank" class={classes.imgLink}>
+      <img src="/img/social/rss-dark.svg" class="light"/>
+      <img src="/img/social/rss-light.svg" class="dark"/>
+      {/* <img src="img/social/icons8-rss-96.svg"/> */}
+    </a>
   </_Footer>;
 }
