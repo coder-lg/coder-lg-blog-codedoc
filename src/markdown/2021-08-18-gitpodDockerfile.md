@@ -1,7 +1,7 @@
-> :Hero src=src/assets/images/gitpod thumbnail.png,
+> :Hero src=src/assets/images/thumbnails/gitpod thumbnail.png,
 >       mode=dark
 
-> :Hero src=src/assets/images/gitpod vscode edition.PNG,
+> :Hero src=src/assets/images/thumbnails/gitpod vscode edition.PNG,
 >       mode=light
 
 > :Title
@@ -191,7 +191,7 @@ Now, end your present workspace by closing the tab, and then, hit the Gitpod But
 
 DO NOT FORGET TO ADD THE IMAGE! And, if you have ideas for blogs, share them in the discussion I made. I need ideas even on the tech blog.
 
-And, if yoy made it this far, you are awesome.
+And, if you made it this far, you are awesome.
 <!--Third revision-->
 # The usual end part:
 
