@@ -60,7 +60,8 @@ export function Footer(this: ThemedComponentThis, config: CodedocConfig, rendere
     <a href="https://coderlg.coding.blog/_feed.rss" target="_blank" class={classes.imgLink}>
       <img src="./src/assets/svg/rss-dark.svg" class="light"/>
       <img src="./src/assets/svg/rss-light.svg" class="dark"/>
-      {/* <img src="img/svg/icons8-rss-96.svg"/> */}
+      {/*<img src="img/svg/icons8-rss-96.svg"/>
+      <img src="img/svg/icons8-rss-96.svg"/> { /*class="dark"*/ }
     </a>
     <a href="https://matrix.to/#/@coder-lg:matrix.org" target="_blank" class={classes.imgLink}>
       <img src="./src/assets/svg/matrix-social.svg"/>
