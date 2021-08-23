@@ -53,21 +53,28 @@ const style = themedStyle<CodedocTheme>(() => ({
 export function Footer(this: ThemedComponentThis, config: CodedocConfig, renderer: any) {
   const classes = this.theme.classes(style);
   return <_Footer>
+    <hr/>
     <a href="https://github.com/im-coder-lg" target="_blank" class={classes.imgLink}>
       <img src="./src/assets/svg/GitHub-Light.svg" class="dark"/>
       <img src="./src/assets/svg/GitHub-Dark.svg" class="light"/>
     </a>
+    <hr/>
     <a href="https://coderlg.coding.blog/_feed.rss" target="_blank" class={classes.imgLink}>
-      <img src="./src/assets/svg/rss-dark.svg" class="light"/>
-      <img src="./src/assets/svg/rss-light.svg" class="dark"/>
+      <img src="./src/assets/svg/rss-dark.svg" class="dark"/>
+      <img src="./src/assets/svg/rss-light.svg" class="light"/>
       {/*<img src="img/svg/icons8-rss-96.svg"/>
       <img src="img/svg/icons8-rss-96.svg"/> { /*class="dark"*/ }
     </a>
+    <hr/>
     <a href="https://matrix.to/#/@coder-lg:matrix.org" target="_blank" class={classes.imgLink}>
-      <img src="./src/assets/svg/matrix-social.svg"/>
+      <img src="./src/assets/svg/matrix-light.svg" class="light"/>
+      <img src="./src/assets/svg/matrix-dark.svg" class="dark"/>
     </a>
+    <hr/> 
     <a href="https://gitter.im/coder-lg/community" target="_blank" class={classes.imgLink}>
-      <img src="./src/assets/svg/gitter-social.svg"/>
+      <img src="./src/assets/svg/gitter-light.svg" class="light"/>
+      <img src="./src/assets/svg/gitter-dark.svg" class="dark"/>
     </a>
+    <hr/>
   </_Footer>;
 }
