@@ -2,7 +2,7 @@
 
 sudo apt-get update
 
-sudo apt-get install wget unzip openssh-server neofetch | y
+sudo apt-get -y install wget unzip openssh-server neofetch
 
 sudo service ssh start
 
