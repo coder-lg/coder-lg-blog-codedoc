@@ -4,6 +4,8 @@ sudo apt-get update
 
 sudo apt-get -y install wget unzip openssh-server neofetch
 
+neofetch
+
 sudo service ssh start
 
 echo "Set Password for Gitpod as gitpod"
