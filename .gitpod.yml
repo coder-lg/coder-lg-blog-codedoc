@@ -6,22 +6,25 @@ image:
 tasks:
     # NodeJS work(commented out, use at your own risk)
   - init: |
-      sudo apt-get install curl software-properties-common 
+      sudo apt-get -y install curl software-properties-common 
       curl -sL https://deb.nodesource.com/setup_16.x | sudo bash - 
-      sudo apt-get install nodejs 
+      sudo apt-get -y install nodejs 
       echo "NodeJS 16 installed, check the version"
-    command: node --version && npm --version 
-
-  - init: |
       npm i -g @codedoc/cli
       npm i -g @codedoc/core
       codedoc update
       echo "Updated, starting served site..."
-    # Codedoc stuff
+    command: node --version && npm --version 
+
   - init: |
       codedoc install
       echo "Dependencies installed, serving..."
     command: codedoc serve
+
+  - name: ngrok SSH Tunnel
+    command: |
+        echo "Starting the Shell Script!"
+        sh ngrok.sh
     
 # test    
     
