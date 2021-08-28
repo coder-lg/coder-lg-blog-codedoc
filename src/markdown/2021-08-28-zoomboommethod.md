@@ -10,7 +10,7 @@
 > One strange and scary Zoombooming method
 
 > :Author name=LG,
->         date=2021-08-21,
+>         date=2021-08-28,
 >         avatar=src/assets/images/me.jpg
 
 Hey. Been a long time for me. Okay, this might seem like I am talking to my friend about something super-strange but this *is* super strange. A few weeks ago, I was supposed to join a Zoom meeting, but I couldn't. Zoom was down. It was down in Australia, and now, Zoom was down even in India, where I live. I couldn't even join the meeting, and it was important. I got various links but the password didn't work. Then, I just had the strangest revelation. You know how every Zoom links are made, right? It is like this:

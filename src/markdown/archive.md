@@ -5,6 +5,7 @@
 > :Collapse label=2021, default=open
 >
 > > :Collapse label=August, default=open
+> > - August 28 of 2021 has two blogs. [Zoombooming, very scary](/2021-08-28-zoomboommethod) and [The ICBM](2021-08-28-icbm)
 > > - August 21 of 2021 » [CODEDOC: What it is and comparison to Jekyll](/2021-08-21-codedoc)
 > > - August 18 of 2021 » [Gitpod. And the automation.](/2021-08-18-gitpodDockerfile)
 >
