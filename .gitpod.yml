@@ -5,11 +5,11 @@ image:
 
 tasks:
     # NodeJS work(commented out, use at your own risk)
-  - name: NodeJS 16
-    init: |
-      sh node.sh
-      echo Installed latest version, serving in progress, please wait.
-    command: node --version && npm --version 
+  # - name: NodeJS 16
+  #   init: |
+  #     sh node.sh
+  #     echo Installed latest version, serving in progress, please wait.
+  #   command: node --version && npm --version 
 
   - name: Server
     init: |
