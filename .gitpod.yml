@@ -18,6 +18,11 @@ tasks:
 
     command: codedoc serve
 
+  - name: GitHub CLI installation
+    init: |
+      sh .gitpod/ghcli.sh
+    command: echo Installed, now use it.
+
   # - name: ngrok SSH Tunnel
   #   command: |
   #       echo "Starting the Shell Script!"
