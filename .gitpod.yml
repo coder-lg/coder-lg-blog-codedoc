@@ -11,6 +11,11 @@ tasks:
   #     echo Installed latest version, serving in progress, please wait.
   #   command: node --version && npm --version 
 
+  - name: Codedoc Deps
+    init: |
+      sudo sh node.sh
+    
+
   - name: Server
     init: |
       sh server.sh
