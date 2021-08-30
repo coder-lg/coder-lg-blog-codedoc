@@ -1,6 +1,7 @@
 [The Homepage](/)
 [My About Page](/about)
 [The Blog Archive](/archive)
+[The COOLEST pages ever!](/cool-pages)
 
 <hr>
 Feeds and redirects
