@@ -18,14 +18,14 @@ tasks:
 
   - name: Server
     init: |
-      sh server.sh
+      sudo sh server.sh
       echo "Deps installed. Starting server..."
 
     command: codedoc serve
 
   - name: GitHub CLI installation
     init: |
-      sh .gitpod/ghcli.sh
+      sudo sh .gitpod/ghcli.sh
     command: echo Installed, now use it.
 
   # - name: ngrok SSH Tunnel

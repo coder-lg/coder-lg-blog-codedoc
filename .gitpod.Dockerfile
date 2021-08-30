@@ -18,10 +18,10 @@ FROM gitpod/workspace-full
 
 # RUN bash .gitpod/gitpodDockerfile.sh
 
-RUN sudo apt-get install curl software-properties-common 
-RUN curl -sL https://deb.nodesource.com/setup_16.x | sudo bash - 
-RUN sudo apt-get install nodejs 
-RUN node --version
+# RUN sudo apt-get install curl software-properties-common 
+# RUN curl -sL https://deb.nodesource.com/setup_16.x | sudo bash - 
+# RUN sudo apt-get install nodejs 
+# RUN node --version
 
 # RUN npm i -g @codedoc/cli
 # RUN echo "Codedoc Installed, now activating Gitpod..."
