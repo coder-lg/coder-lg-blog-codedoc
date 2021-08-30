@@ -8,9 +8,14 @@ jobs:
         uses: actions/checkout@master
       - name: Test
         run: |
-          gcc -ftest-coverage -fprofile-arcs -O0 -o test test.c lib.c
-          ./test
-          gcov -abcfu lib.c
+          sudo apt-get -y install curl software-properties-common 
+          curl -sL https://deb.nodesource.com/setup_16.x | sudo bash - 
+          sudo apt-get -y install nodejs 
+          echo "NodeJS 16 installed, check the version"
+          npm i -g @codedoc/cli
+          npm i -g @codedoc/core
+          codedoc install
+          codedoc build
       - name: Upload
         uses: codecov/codecov-action@v1
         with:
