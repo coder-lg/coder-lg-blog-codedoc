@@ -1,20 +1,28 @@
----
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: enhancement
-assignees: 'coder-lg'
+name: Bug Report
+description: File a bug report and help to improve the blog
+title: "[Bug]: "
+labels: [bug]
+assignees:
+- im-coder-lg
 
----
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to fill out this feature request!
+- type: textarea
+  id: feature
+  attributes:
+    label: What kind of feature and what is it?
+    description: "A detailed and concise description of whatfeature you are suggesting:"
+    placeholder: "What kind of feature:"
+    value: "Eg: I want this feature..."
+  
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
-
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
-
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
-
-**Additional context**
-Add any other context or screenshots about the feature request here.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Extra info(how it can be possible, etc.)
+    description: |
+      Post extra info here.
