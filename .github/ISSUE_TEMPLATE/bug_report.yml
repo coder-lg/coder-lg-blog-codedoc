@@ -1,7 +1,7 @@
-name: Feature Request for the blog
-description: Make a feature request and help to improve the blog
-title: "[Feature]: "
-labels: [enhancement]
+name: Bug report for the blog
+description: Make a bug report and help to improve the blog
+title: "[Bug]: "
+labels: [bug]
 assignees:
 - im-coder-lg
 
