@@ -1,0 +1,13 @@
+language: node_js
+sudo: true
+node_js:
+  - 10
+  - 9
+  - 8
+  - 7
+  - 6
+install:
+  - sudo npm i -g codecov nyc
+script:
+  - npm test
+  - codecov -f coverage/*.json

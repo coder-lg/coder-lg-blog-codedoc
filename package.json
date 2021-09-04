@@ -1,0 +1,26 @@
+{
+  "name": "coder-lg-blog-codedoc",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "codecov": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/im-coder-lg/coder-lg-blog-codedoc.git"
+  },
+  "author": "im-coder-lg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/im-coder-lg/coder-lg/issues"
+  },
+  "homepage": "https://coderlg.coding.blog",
+  "devDependencies": {
+    "intern": "^4.10.0",
+    "jest": "^26.6.3",
+    "remap-istanbul": "^0.13.0"
+  },
+  "dependencies": {
+    "nyc": "^15.1.0"
+  }
+}
