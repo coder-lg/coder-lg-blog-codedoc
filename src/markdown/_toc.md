@@ -16,3 +16,6 @@ Feeds and redirects
 - <a href="https://im-coder-lg.github.io/tech/feed.xml">Feed for my tech blog based on Jekyll</a>
 
 - <a href="https://github.com/sylhare/Type-on-Strap">A redirect to Type On Strap, the BEST Jekyll theme you EVER wanted.</a>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE2MzkxNjU5NjNdfQ==
+-->
