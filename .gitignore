@@ -115,3 +115,5 @@ obj/
 *.csproj.user
 *.fsproj.user
 *wpftmp.csproj
+
+./build/*
