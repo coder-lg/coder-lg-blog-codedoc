@@ -13,19 +13,43 @@ tasks:
 
   - name: Codedoc Deps
     init: |
-      sudo sh node.sh
+      touch /tmp/.npm-lock
+      sudo apt-get -y install curl software-properties-common 
+      curl -sL https://deb.nodesource.com/setup_16.x | sudo bash - 
+      sudo apt-get -y install nodejs 
+      echo "NodeJS 16 installed, check the version"
+      npm i -g @codedoc/cli
+      npm i -g @codedoc/core
+      codedoc update
+      codedoc install
+      echo "Updated, starting served site..."
+      rm /tmp/.npm-lock
     
 
   - name: Server
-    init: |
-      sudo sh server.sh
-      echo "Deps installed. Starting server..."
-
+    init: sleep 1 && while [ -f /tmp/.npm-lock ]; do sleep 1; done
     command: codedoc serve
 
   - name: GitHub CLI installation
     init: |
-      sudo sh .gitpod/ghcli.sh
+      cd ~
+
+      mkdir cli
+
+      cd cli
+
+      wget "https://github.com/cli/cli/releases/download/v2.0.0/gh_2.0.0_linux_amd64.deb"
+
+      sleep 5
+
+      sudo dpkg --install gh_2.0.0_linux_amd64.deb
+
+      echo "Now that you have GitHub CLI, you must login to your CLI or it is a piece of crap."
+
+      echo "Copy the Auth token(8 digit+letter but totally 8-digit), open in browser, and go to github.com/login/device, place your code, authenticate and you are logged in :)"
+
+      gh auth login
+
     command: echo Installed, now use it.
 
   # - name: ngrok SSH Tunnel
