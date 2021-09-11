@@ -1,9 +1,9 @@
-[Home](/)
-[About](/about)
-[Archive](/archive)
+[The Homepage](/)
+[My About Page](/about)
+[The Blog Archive](/archive)
 
 <hr>
-Feeds
+Feeds and redirects
 
 - <a href="https://coderlg.coding.blog/_feed.atom" target="_blank">Atom</a>
 
@@ -11,6 +11,11 @@ Feeds
 
 - <a href="https://coderlg.coding.blog/_feed.json" target="_blank">JSON</a>
 
-- <a href="https://coder-lg.github.io/my-blog/feed.xml">Feed for my Jekyll blog</a>
+- <a href="https://im-coder-lg.github.io/feed.xml">Feed for my Jekyll blog</a>
 
-- <a href="https://coder-lg.github.io/tech/feed.xml">Feed for my tech blog</a>
+- <a href="https://im-coder-lg.github.io/tech/feed.xml">Feed for my tech blog based on Jekyll</a>
+
+- <a href="https://github.com/sylhare/Type-on-Strap">A redirect to Type On Strap, the BEST Jekyll theme you EVER wanted.</a>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE2MzkxNjU5NjNdfQ==
+-->

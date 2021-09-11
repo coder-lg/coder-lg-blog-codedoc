@@ -1,0 +1,28 @@
+name: Feature Request
+description: File a feature request and help to improve the blog
+title: "[Feature]: "
+labels: [enhancement]
+assignees:
+- im-coder-lg
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to fill out this feature request!
+- type: textarea
+  id: feature
+  attributes:
+    label: What kind of feature and what is it?
+    description: "A detailed and concise description of whatfeature you are suggesting:"
+    placeholder: "What kind of feature:"
+    value: "Eg: I want this feature..."
+  
+
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Extra info(how it can be possible, etc.)
+    description: |
+      Post extra info here.

@@ -1,0 +1,22 @@
+name: Codecov
+on: [push, pull_request]
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch
+        uses: actions/checkout@master
+      - name: Test
+        run: |
+          sudo apt-get -y install curl software-properties-common 
+          curl -sL https://deb.nodesource.com/setup_16.x | sudo bash - 
+          sudo apt-get -y install nodejs 
+          echo "NodeJS 16 installed, check the version"
+          npm i -g @codedoc/cli
+          npm i -g @codedoc/core
+          codedoc install
+          codedoc build
+      - name: Upload
+        uses: codecov/codecov-action@v1
+        with:
+          files: ./build/*

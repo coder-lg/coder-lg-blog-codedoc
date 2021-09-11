@@ -1,0 +1,80 @@
+image:
+  file: .gitpod.Dockerfile
+
+# tasks for gitpod
+
+tasks:
+    # NodeJS work(commented out, use at your own risk)
+  # - name: NodeJS 16
+  #   init: |
+  #     sh node.sh
+  #     echo Installed latest version, serving in progress, please wait.
+  #   command: node --version && npm --version 
+
+  - name: Codedoc Deps
+    init: |
+      sudo sh node.sh
+    
+
+  - name: Server
+    init: |
+      sudo sh server.sh
+      echo "Deps installed. Starting server..."
+
+    command: codedoc serve
+
+  - name: GitHub CLI installation
+    init: |
+      sudo sh .gitpod/ghcli.sh
+    command: echo Installed, now use it.
+
+  # - name: ngrok SSH Tunnel
+  #   command: |
+  #       echo "Starting the Shell Script!"
+  #       sh ngrok.sh
+    
+# test    
+    
+#  - name: TCP Tunnel
+  #  command: chisel server --socks5
+ # - name: SSH Server
+ #   command: |
+  #    [ -f /workspace/dropbear.hostkey ] || dropbearkey -t rsa -f /workspace/dropbear.hostkey
+ #     dropbear -r /workspace/dropbear.hostkey -F -E -s -p 2222 -P ~/dropbear.pid
+ # - command: |
+#      mkdir -p ~/.ssh && open ~/.ssh/authorized_keys
+#       clear
+  #    echo "=============="
+ #     echo " INSTRUCTIONS "
+#      echo "=============="
+  #    echo ""
+  #    echo "1. Add your public SSH key to ~/.ssh/authorized_keys of this Gitpod workspace"
+ #     echo ""
+#      echo "2. Install Chisel on your local machine, e.g. curl https://i.jpillora.com/chisel! | bash"
+#      echo "   see https://github.com/jpillora/chisel"
+  #   echo ""
+  #    echo "3. Connect via SSH from your local machine:"
+ #     echo "   ssh -o ProxyCommand='chisel client $(gp url 8080) stdio:%h:%p' gitpod@localhost -p 2222"
+#      echo ""
+#ports:
+#  - port: 8080
+#  - port: 2222
+#    onOpen: ignore
+# test ends here
+# GitHub
+github:
+  prebuilds:
+    # enable for the master/default branch (defaults to true)
+    master: true
+    # enable for all branches in this repo (defaults to false)
+    branches: true
+    # enable for pull requests coming from this repo (defaults to true)
+    pullRequests: true
+    # enable for pull requests coming from forks (defaults to false)
+    pullRequestsFromForks: true
+    # add a "Review in Gitpod" button as a comment to pull requests (defaults to true)
+    addComment: true
+    # add a "Review in Gitpod" button to pull requests (defaults to false)
+    addBadge: true
+    # add a label once the prebuild is ready to pull requests (defaults to false)
+    addLabel: prebuilt-in-gitpod
