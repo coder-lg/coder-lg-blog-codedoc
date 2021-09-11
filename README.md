@@ -1,7 +1,20 @@
-We will hit 100 commits in one WEEK?! I have 75 commits ALREADY?! OH. MY. GOD.
+# README.md
 
-Let's hit 100 commits in a MONTH :boom:
-# credits to [`@TysonMN`](https://GitHub.com/TysonMN) for the blog!
+<!-- We will hit 100 commits in one WEEK?! I have 75 commits ALREADY?! OH. MY. GOD. -->
+# The milestones
+- Let's hit 100 commits before September 30 :boom: :rocket: 🌩️
+# Memorable Times...
+
+- On 17 of August on 2021, we hit ***102*** commits. 102?! That is a `!!` move! And it's not even 31st of September!
+
+
+# For going to the Gitpod environment.
+
+If you see a [`typo`](https://github.com/im-coder-lg/coder-lg-blog-codedoc/blob/master/README.md#improvements), click the SVG, the website will be served automatically, and it is secure. You must login to Gitpod via GitHub.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/im-coder-lg/coder-lg-blog-codedoc)
+
+# credits to [***`@TysonMN`***](https://GitHub.com/TysonMN) for the blog!
 
 ## Essential
 
@@ -10,7 +23,7 @@ To locally host this site, follow these steps.
 ### First time
 
 Clone this repo and execute
-```
+```bash
 npm i -g @codedoc/cli
 codedoc install
 ```
@@ -20,7 +33,7 @@ to obtain all npm dependencies.
 ### Every time
 
 Execute
-```
+```bash
 codedoc serve
 ```
 
@@ -67,3 +80,5 @@ Of course GitHub also plays a crucial role.  In addition to hosting the comment
 # Improvements?
 
 Is there some improvement that you would like to see in my blog?  You can tell me about it by [creating an issue](https://github.com/coder-lg/coder-lg-blog-codedoc/issues/new) or you can make the improvement yourself and then send me a [pull request](https://github.com/coder-lg-blog-codedoc/compare).
+
+Edit here: [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/im-coder-lg/coder-lg-blog-codedoc) [![Join the chat at https://gitter.im/im-coder-lg/codedoc-blog](https://badges.gitter.im/im-coder-lg/codedoc-blog.svg)](https://gitter.im/im-coder-lg/codedoc-blog?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
