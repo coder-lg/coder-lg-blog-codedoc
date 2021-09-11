@@ -53,12 +53,18 @@ export const config = /*#__PURE__*/configuration({
       SeeTypo$
     }
   },
-  // misc: {
-  //  github: {
-  //    user: 'im-coder-lg',          // --> name of the user on GitHub owning the repo
-  //    repo: 'coder-lg-blog-codedoc',         // --> name of the repo on GitHub
-  //   },
-  // // ...
-  // },
-  // //...
-  });
+    misc: {
+    github: {
+      user: 'im-coder-lg',            // --> name of the user on GitHub owning the repo
+      repo: 'coder-lg-blog-codedoc',         // --> name of the repo on GitHub
+      action: 'Star',             // --> action of the GitHub button
+      count: true,               // --> whether to show the `count` on the GitHub button
+      large: false,                // --> whether to show a `large` GitHub button
+      standardIcon: true,        // --> whether to use the GitHub icon on the GitHub button or use an action specific icon
+    },
+    gitter: {
+      room: 'im-coder-lg/codedoc-blog'  // --> id of the Gitter room for the project
+    }
+  },
+  //...
+});
