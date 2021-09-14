@@ -8,6 +8,7 @@ import { theme } from './theme';
 import { Utterances } from './components/utterances';
 import { SeeTypo$ } from './components/SeeTypo';
 import { googleAnalytics } from './components/GoogleAnalytics/plugin';
+import { Card } from './components/card';
 
 
 
@@ -50,6 +51,7 @@ export const config = /*#__PURE__*/configuration({
     customComponents: {
       ...DefaultMarkdownCustomComponents,
       Utterances,
+      Card,
       SeeTypo$
     }
   },
