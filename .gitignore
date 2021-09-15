@@ -117,3 +117,4 @@ obj/
 *wpftmp.csproj
 
 ./build/*
+kubectl
