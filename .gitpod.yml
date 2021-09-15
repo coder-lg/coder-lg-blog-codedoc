@@ -56,13 +56,21 @@ tasks:
   - name: Kubernetes+Helm=Coder
     command: |
       curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+      sleep 2
       sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+      sleep 2
       kubectl version --client
+      sleep 2
       curl https://baltocdn.com/helm/signing.asc | sudo apt-key add -
+      sleep 2
       sudo apt-get install apt-transport-https --yes
+      sleep 2
       echo "deb https://baltocdn.com/helm/stable/debian/ all main" | sudo tee /etc/apt/sources.list.d/helm-stable-debian.list
+      sleep 2
       sudo apt-get update
+      sleep 1
       sudo apt-get install helm
+      sleep 2
       curl -fsSL https://coder.com/try.sh | PORT="80" sh -s --
 
       
