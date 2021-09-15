@@ -55,7 +55,7 @@
   // Git Lens
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
-  "gitlens.codeLens.enabled": false,
+  "gitlens.codeLens.enabled": true,
 
   "git.enableSmartCommit": true,
   // "terminal.integrated.profiles.osx": "/bin/bash",

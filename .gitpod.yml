@@ -60,6 +60,8 @@ vscode:
     - miguelsolorio.fluent-icons
     - pkief.material-icon-theme
 
+    - ms-azuretools.vscode-docker
+
 # - name: ngrok SSH Tunnel
 #   command: |
 #       echo "Starting the Shell Script!"
@@ -106,5 +108,4 @@ github:
     addBadge: true
 # add a label once the prebuild is ready to pull requests (defaults to false)
     addLabel: prebuilt-in-gitpod
-
 
