@@ -1,0 +1,93 @@
+{
+  // Terminal font size
+  "terminal.integrated.fontSize": 14,
+  // Workspace theme and schema
+  // "workbench.colorTheme": "Omni",
+  "workbench.iconTheme": "material-icon-theme",
+  // Workspace default new file
+  "workbench.startupEditor": "welcomePage",
+  // Customize editor 
+  "editor.tabSize": 2,
+  "editor.fontSize": 17,
+  "editor.lineHeight": 25,
+  // "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  // Auto remove
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    ".codedoc/node_modules": true
+  },
+  
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  // Ignore extensions recommendation
+  "extensions.ignoreRecommendations": true,
+  
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  
+  "editor.rulers": [80, 120],
+  // Fix on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // Default file type
+  // "files.associations": {
+  //   ".sequelizerc": "javascript",
+  //   ".stylelintrc": "json",
+  //   ".prettierrc": "json"
+  // },
+
+  "window.zoomLevel": 0,
+  // Emmet → web dev snippets
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  // Git Lens
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+
+  "git.enableSmartCommit": true,
+  // "terminal.integrated.profiles.osx": "/bin/bash",
+  "liveshare.featureSet": "insiders",
+
+  "typescript.tsserver.log": "verbose",
+  // Auto import
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "screencastMode.onlyKeyboardShortcuts": true,
+  // Change "material-icon-theme" default icons
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe"
+  },
+
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d"
+  }
+}
