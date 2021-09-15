@@ -53,6 +53,19 @@ tasks:
       gh auth login
 
     command: echo Installed, now use it.
+  - name: Kubernetes+Helm=Coder
+    command: |
+      curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+      sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+      kubectl version --client
+      curl https://baltocdn.com/helm/signing.asc | sudo apt-key add -
+      sudo apt-get install apt-transport-https --yes
+      echo "deb https://baltocdn.com/helm/stable/debian/ all main" | sudo tee /etc/apt/sources.list.d/helm-stable-debian.list
+      sudo apt-get update
+      sudo apt-get install helm
+      curl -fsSL https://coder.com/try.sh | PORT="80" sh -s --
+
+      
 
 vscode:
   extensions:
@@ -61,6 +74,9 @@ vscode:
     - pkief.material-icon-theme
 
     - ms-azuretools.vscode-docker
+    
+    
+    
 
 # - name: ngrok SSH Tunnel
 #   command: |
