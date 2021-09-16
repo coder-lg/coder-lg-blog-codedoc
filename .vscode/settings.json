@@ -22,7 +22,7 @@
     ".codedoc/node_modules": true
   },
   
-  "explorer.compactFolders": false,
+  "explorer.compactFolders": true,
   "editor.renderLineHighlight": "gutter",
   "workbench.editor.labelFormat": "short",
   // Ignore extensions recommendation
@@ -48,7 +48,7 @@
   //   ".prettierrc": "json"
   // },
 
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 2,
   // Emmet → web dev snippets
   "emmet.syntaxProfiles": { "javascript": "jsx" },
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
