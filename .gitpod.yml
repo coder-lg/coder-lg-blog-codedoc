@@ -71,11 +71,12 @@ tasks:
       sleep 1
       sudo apt-get install helm
       sleep 2
-      curl -fsSL https://coder.com/try.sh | PORT="80" sh -s --
       curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.11.1/kind-linux-amd64
       chmod +x ./kind
       mv ./kind ~/kind
       source ~/.bashrc
+      sleep 2
+      curl -fsSL https://coder.com/try.sh | PORT="80" sh -s --
 
       
 
