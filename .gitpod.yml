@@ -51,6 +51,7 @@ tasks:
       echo "Copy the Auth token(8 digit+letter but totally 8-digit), open in browser, and go to github.com/login/device, place your code, authenticate and you are logged in :)"
 
       gh auth login
+      rm /tmp/.ghcli-lock
 
     command: echo Installed, now use it.
   # - name: Kubernetes+Helm=Coder
