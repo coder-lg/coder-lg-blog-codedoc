@@ -55,7 +55,7 @@ tasks:
 
     command: echo Installed, now use it.
   - name: Oh My ZSH installation
-    init: git clone git clone http://github.com/robbyrussell/oh-my-zsh ~/.oh-my-zsh
+    init: git clone http://github.com/robbyrussell/oh-my-zsh ~/.oh-my-zsh
     command: |
         mv -b ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
         cat ~/.zshrc~ >> ~/.zshrc
