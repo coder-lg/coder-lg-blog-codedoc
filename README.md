@@ -13,6 +13,9 @@
 If you see a [`typo`](https://github.com/im-coder-lg/coder-lg-blog-codedoc/blob/master/README.md#improvements), click the SVG, the website will be served automatically, and it is secure. You must login to Gitpod via GitHub.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/im-coder-lg/coder-lg-blog-codedoc)
+## Additional Goodies
+- noVNC server running Nautilus(Gnome Files) and Xplorer(FOSS file manager made based on Electron)
+- Any GUI app on noVNC, ie. gedit or anything you want.
 
 # credits to [***`@TysonMN`***](https://GitHub.com/TysonMN) for the blog!
 
