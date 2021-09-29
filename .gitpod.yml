@@ -54,6 +54,15 @@ tasks:
       rm /tmp/.ghcli-lock
 
     command: echo Installed, now use it.
+  - name: Oh My ZSH installation
+    init: git clone git clone http://github.com/robbyrussell/oh-my-zsh ~/.oh-my-zsh
+    command: |
+        mv -b ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+        cat ~/.zshrc~ >> ~/.zshrc
+        mv ~/.oh-my-zsh $HOME/.local/share/oh-my-zsh
+        export ZSH=$HOME/.local/share/oh-my-zsh
+        source ~/.zshrc
+
   # - name: Kubernetes+Helm=Coder
   #   command: |
   #     curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
