@@ -69,6 +69,19 @@ tasks:
     command: |
         zsh
 
+  - name: Nautilus
+    init: sudo apt install nautilus
+    command: |
+        sudo nautilus
+  
+  - name: Xplorer
+    init: npm i -g yarn
+    command: |
+        sudo git clone https://github.com/kimlimjustin/xplorer sysfiles/xplorer
+        cd sysfiles/xplorer
+        yarn
+        yarn dev
+
   # - name: Kubernetes+Helm=Coder
   #   command: |
   #     curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
