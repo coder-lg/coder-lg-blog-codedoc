@@ -19,7 +19,7 @@ export const config = /*#__PURE__*/configuration({
   },
   dest: {
     html: 'dist',
-    assets: '.', // TODO: want 'src/assets' but blocked by https://github.com/CONNECT-platform/coding-blog/issues/18
+    assets: 'dist', // TODO: want 'src/assets' but blocked by https://github.com/CONNECT-platform/coding-blog/issues/18
     bundle: 'dist',
     styles: 'dist',
   },
