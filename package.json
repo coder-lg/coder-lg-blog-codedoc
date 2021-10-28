@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "install": "codedoc install",
+    "install": "npm i -g @codedoc/cli && codedoc install",
     "build": "codedoc build",
     "serve": "codedoc serve"
   },
