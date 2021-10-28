@@ -1,10 +1,15 @@
 {
   "private": true,
   "scripts": {
-    "build": "codedoc install && codedoc build",
-    "dev": "codedoc serve"
+    "install": "codedoc install",
+    "build": "codedoc build",
+    "serve": "codedoc serve"
   },
   "dependencies": {
-    "@codedoc/cli": "^0.2.8"
+    "@codedoc/coding-blog-plugin": "^0.1.11",
+    "@codedoc/core": "^0.2.24"
+  },
+  "devDependencies": {
+    "source-map-loader": "^1.0.0"
   }
-}
+}  
