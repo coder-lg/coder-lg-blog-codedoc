@@ -3,7 +3,7 @@
 > How to solve a Rubik's cube the easy way
 
 > :Author name=LG,
->         date=2021-11-05,
+>         date=2021-11-14,
 >         avatar=src/assets/images/me.jpg
 
 Now, let me tell you something. 2 years ago, I couldn't solve a Rubik's cube at all. The only time I remember solving it was by reassembling it. Looking at the POV of a solver is hard, since Rubik's Cubes hav
@@ -39,7 +39,7 @@ The edge pieces is the piece with two colors in it. By now, you must have recogn
 
 ##### The center piece
 
-Well, you know this one. But this is a crazy piece, since it doesn't move. It is locked in one place. Even if you have a scrambled cube and a solvd one, the centers won't move, since they hold the cube together.
+Well, you know this one. But this is a crazy piece, since it doesn't move. It is locked in one place. Even if you have a scrambled cube and a solved one, the centers won't move, since they hold the cube together.
 
 #### Layers
 
@@ -60,6 +60,14 @@ So, first, locate all the white edge pieces. Then, push them to the yellow cente
 
 <!--revision 1-->
 
+Next, observe the adjacent edge color to the white edge pieces. If it's orange, find the orange centre piece, align it vertically and rotate it by 180 degrees. Repeat the same process till you have a white cross at the bottom.
+
+Next, check for outward facing white corner pieces. _Ignore_ the top color. Get it? Ignore. Check the adjacent color to white(not the top one pls dude) and align that color diagonally with it's center color.
+
+Then perform the Right Trigger(you'll need to remember this, R, U, R', U'), which is turning the right face up 90 degrees, the Up face left side once, the right side down once and the up face right side once. It sohould be inside. If it's on the left side, do this: Move the left side once upwards, the up face right side once, the left side once below, and the up face left (L', U', L, U).
+
+Repeat till you solve it.
+<!--revision 2-->
 
 > :Watermark
 
