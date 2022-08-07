@@ -7,7 +7,8 @@
   },
   "dependencies": {
     "@codedoc/coding-blog-plugin": "^0.1.11",
-    "@codedoc/core": "^0.2.24"
+    "@codedoc/core": "^0.2.24",
+    "@codedoc/cli": "^0.2.8"
   },
   "devDependencies": {
     "source-map-loader": "^1.0.0"
