@@ -36,7 +36,7 @@ export const config = /*#__PURE__*/configuration({
     codingBlog({
       assets: [ 'src/assets' ],
       feed: {
-        url: 'https://coderlg.coding.blog',
+        url: 'https://im-coder-lg.github.io/codedoc-blog/',
         title: 'LG',
         exclude: [
           'archive.md',
@@ -58,7 +58,7 @@ export const config = /*#__PURE__*/configuration({
     misc: {
     github: {
       user: 'im-coder-lg',            // --> name of the user on GitHub owning the repo
-      repo: 'coder-lg-blog-codedoc',         // --> name of the repo on GitHub
+      repo: 'codedoc-blog',         // --> name of the repo on GitHub
       action: 'Star',             // --> action of the GitHub button
       count: true,               // --> whether to show the `count` on the GitHub button
       large: false,                // --> whether to show a `large` GitHub button
