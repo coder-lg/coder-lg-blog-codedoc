@@ -1,94 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://coderlg.coding.blog</id>
+    <id>https://im-coder-lg.github.io/codedoc-blog/</id>
     <title>LG</title>
-    <updated>2022-08-29T13:29:52.686Z</updated>
+    <updated>2022-08-29T13:34:27.467Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://coderlg.coding.blog"/>
-    <link rel="self" href="https://coderlg.coding.blog/_feed.atom"/>
-    <icon>https://coderlg.coding.blogsrc/assets/favicon.ico</icon>
+    <link rel="alternate" href="https://im-coder-lg.github.io/codedoc-blog/"/>
+    <link rel="self" href="https://im-coder-lg.github.io/codedoc-blog//_feed.atom"/>
+    <icon>https://im-coder-lg.github.io/codedoc-blog/src/assets/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Markdown: Introduction]]></title>
-        <id>https://coderlg.coding.blog/2021-07-26_mdch1</id>
-        <link href="https://coderlg.coding.blog/2021-07-26_mdch1"/>
-        <updated>2022-08-29T13:28:38.000Z</updated>
+        <id>https://im-coder-lg.github.io/codedoc-blog//2021-07-26_mdch1</id>
+        <link href="https://im-coder-lg.github.io/codedoc-blog//2021-07-26_mdch1"/>
+        <updated>2022-08-29T13:33:07.000Z</updated>
         <content type="html"><![CDATA[Markdown: Introduction ...]]></content>
         <author>
             <name>LG</name>
             <email>76845820+im-coder-lg@users.noreply.github.com</email>
         </author>
-        <published>2022-08-29T13:28:38.000Z</published>
+        <published>2022-08-29T13:33:07.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Markdown: Specials in a Markdown file as well as syntax]]></title>
-        <id>https://coderlg.coding.blog/2021-07-27_mdch2</id>
-        <link href="https://coderlg.coding.blog/2021-07-27_mdch2"/>
-        <updated>2022-08-29T13:28:38.000Z</updated>
+        <id>https://im-coder-lg.github.io/codedoc-blog//2021-07-27_mdch2</id>
+        <link href="https://im-coder-lg.github.io/codedoc-blog//2021-07-27_mdch2"/>
+        <updated>2022-08-29T13:33:07.000Z</updated>
         <content type="html"><![CDATA[Markdown: Specials in a Markdown file as well as syntax ...]]></content>
         <author>
             <name>LG</name>
             <email>76845820+im-coder-lg@users.noreply.github.com</email>
         </author>
-        <published>2022-08-29T13:28:38.000Z</published>
+        <published>2022-08-29T13:33:07.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Batch files: What are they and how do I make them?]]></title>
-        <id>https://coderlg.coding.blog/2021-07-31-batch1</id>
-        <link href="https://coderlg.coding.blog/2021-07-31-batch1"/>
-        <updated>2022-08-29T13:28:38.000Z</updated>
+        <id>https://im-coder-lg.github.io/codedoc-blog//2021-07-31-batch1</id>
+        <link href="https://im-coder-lg.github.io/codedoc-blog//2021-07-31-batch1"/>
+        <updated>2022-08-29T13:33:07.000Z</updated>
         <content type="html"><![CDATA[Batch files: What are they and how do I make them? ...]]></content>
         <author>
             <name>LG</name>
             <email>76845820+im-coder-lg@users.noreply.github.com</email>
         </author>
-        <published>2022-08-29T13:28:38.000Z</published>
+        <published>2022-08-29T13:33:07.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Gitpod. And the automation.]]></title>
-        <id>https://coderlg.coding.blog/2021-08-18-gitpodDockerfile</id>
-        <link href="https://coderlg.coding.blog/2021-08-18-gitpodDockerfile"/>
-        <updated>2022-08-29T13:28:38.000Z</updated>
+        <id>https://im-coder-lg.github.io/codedoc-blog//2021-08-18-gitpodDockerfile</id>
+        <link href="https://im-coder-lg.github.io/codedoc-blog//2021-08-18-gitpodDockerfile"/>
+        <updated>2022-08-29T13:33:07.000Z</updated>
         <content type="html"><![CDATA[Gitpod. And the automation. ...]]></content>
         <author>
             <name>LG</name>
             <email>76845820+im-coder-lg@users.noreply.github.com</email>
         </author>
-        <published>2022-08-29T13:28:38.000Z</published>
+        <published>2022-08-29T13:33:07.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[CODEDOC: What it is and comparison to Jekyll]]></title>
-        <id>https://coderlg.coding.blog/2021-08-21-codedoc</id>
-        <link href="https://coderlg.coding.blog/2021-08-21-codedoc"/>
-        <updated>2022-08-29T13:28:38.000Z</updated>
+        <id>https://im-coder-lg.github.io/codedoc-blog//2021-08-21-codedoc</id>
+        <link href="https://im-coder-lg.github.io/codedoc-blog//2021-08-21-codedoc"/>
+        <updated>2022-08-29T13:33:07.000Z</updated>
         <content type="html"><![CDATA[CODEDOC: What it is and comparison to Jekyll ...]]></content>
         <author>
             <name>LG</name>
             <email>76845820+im-coder-lg@users.noreply.github.com</email>
         </author>
-        <published>2022-08-29T13:28:38.000Z</published>
+        <published>2022-08-29T13:33:07.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[The Intercontinental Ballistic Missile Gambit(A06)]]></title>
-        <id>https://coderlg.coding.blog/2021-08-28-icbm</id>
-        <link href="https://coderlg.coding.blog/2021-08-28-icbm"/>
-        <updated>2022-08-29T13:28:38.000Z</updated>
+        <id>https://im-coder-lg.github.io/codedoc-blog//2021-08-28-icbm</id>
+        <link href="https://im-coder-lg.github.io/codedoc-blog//2021-08-28-icbm"/>
+        <updated>2022-08-29T13:33:07.000Z</updated>
         <content type="html"><![CDATA[The Intercontinental Ballistic Missile Gambit(A06) ...]]></content>
         <author>
             <name>LG</name>
             <email>76845820+im-coder-lg@users.noreply.github.com</email>
         </author>
-        <published>2022-08-29T13:28:38.000Z</published>
+        <published>2022-08-29T13:33:07.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[One strange and scary Zoombooming method]]></title>
-        <id>https://coderlg.coding.blog/2021-08-28-zoomboom</id>
-        <link href="https://coderlg.coding.blog/2021-08-28-zoomboom"/>
-        <updated>2022-08-29T13:28:38.000Z</updated>
+        <id>https://im-coder-lg.github.io/codedoc-blog//2021-08-28-zoomboom</id>
+        <link href="https://im-coder-lg.github.io/codedoc-blog//2021-08-28-zoomboom"/>
+        <updated>2022-08-29T13:33:07.000Z</updated>
         <content type="html"><![CDATA[One strange and scary Zoombooming method ...]]></content>
         <author>
             <name>LG</name>
             <email>76845820+im-coder-lg@users.noreply.github.com</email>
         </author>
-        <published>2022-08-29T13:28:38.000Z</published>
+        <published>2022-08-29T13:33:07.000Z</published>
     </entry>
 </feed>

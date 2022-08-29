@@ -1,82 +1,82 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "LG",
-    "home_page_url": "https://coderlg.coding.blog",
-    "feed_url": "https://coderlg.coding.blog/_feed.json",
+    "home_page_url": "https://im-coder-lg.github.io/codedoc-blog/",
+    "feed_url": "https://im-coder-lg.github.io/codedoc-blog//_feed.json",
     "items": [
         {
-            "id": "https://coderlg.coding.blog/2021-07-26_mdch1",
+            "id": "https://im-coder-lg.github.io/codedoc-blog//2021-07-26_mdch1",
             "content_html": "Markdown: Introduction ...",
-            "url": "https://coderlg.coding.blog/2021-07-26_mdch1",
+            "url": "https://im-coder-lg.github.io/codedoc-blog//2021-07-26_mdch1",
             "title": "Markdown: Introduction",
-            "date_modified": "2022-08-29T13:28:38.000Z",
-            "date_published": "2022-08-29T13:28:38.000Z",
+            "date_modified": "2022-08-29T13:33:07.000Z",
+            "date_published": "2022-08-29T13:33:07.000Z",
             "author": {
                 "name": "LG"
             }
         },
         {
-            "id": "https://coderlg.coding.blog/2021-07-27_mdch2",
+            "id": "https://im-coder-lg.github.io/codedoc-blog//2021-07-27_mdch2",
             "content_html": "Markdown: Specials in a Markdown file as well as syntax ...",
-            "url": "https://coderlg.coding.blog/2021-07-27_mdch2",
+            "url": "https://im-coder-lg.github.io/codedoc-blog//2021-07-27_mdch2",
             "title": "Markdown: Specials in a Markdown file as well as syntax",
-            "date_modified": "2022-08-29T13:28:38.000Z",
-            "date_published": "2022-08-29T13:28:38.000Z",
+            "date_modified": "2022-08-29T13:33:07.000Z",
+            "date_published": "2022-08-29T13:33:07.000Z",
             "author": {
                 "name": "LG"
             }
         },
         {
-            "id": "https://coderlg.coding.blog/2021-07-31-batch1",
+            "id": "https://im-coder-lg.github.io/codedoc-blog//2021-07-31-batch1",
             "content_html": "Batch files: What are they and how do I make them? ...",
-            "url": "https://coderlg.coding.blog/2021-07-31-batch1",
+            "url": "https://im-coder-lg.github.io/codedoc-blog//2021-07-31-batch1",
             "title": "Batch files: What are they and how do I make them?",
-            "date_modified": "2022-08-29T13:28:38.000Z",
-            "date_published": "2022-08-29T13:28:38.000Z",
+            "date_modified": "2022-08-29T13:33:07.000Z",
+            "date_published": "2022-08-29T13:33:07.000Z",
             "author": {
                 "name": "LG"
             }
         },
         {
-            "id": "https://coderlg.coding.blog/2021-08-18-gitpodDockerfile",
+            "id": "https://im-coder-lg.github.io/codedoc-blog//2021-08-18-gitpodDockerfile",
             "content_html": "Gitpod. And the automation. ...",
-            "url": "https://coderlg.coding.blog/2021-08-18-gitpodDockerfile",
+            "url": "https://im-coder-lg.github.io/codedoc-blog//2021-08-18-gitpodDockerfile",
             "title": "Gitpod. And the automation.",
-            "date_modified": "2022-08-29T13:28:38.000Z",
-            "date_published": "2022-08-29T13:28:38.000Z",
+            "date_modified": "2022-08-29T13:33:07.000Z",
+            "date_published": "2022-08-29T13:33:07.000Z",
             "author": {
                 "name": "LG"
             }
         },
         {
-            "id": "https://coderlg.coding.blog/2021-08-21-codedoc",
+            "id": "https://im-coder-lg.github.io/codedoc-blog//2021-08-21-codedoc",
             "content_html": "CODEDOC: What it is and comparison to Jekyll ...",
-            "url": "https://coderlg.coding.blog/2021-08-21-codedoc",
+            "url": "https://im-coder-lg.github.io/codedoc-blog//2021-08-21-codedoc",
             "title": "CODEDOC: What it is and comparison to Jekyll",
-            "date_modified": "2022-08-29T13:28:38.000Z",
-            "date_published": "2022-08-29T13:28:38.000Z",
+            "date_modified": "2022-08-29T13:33:07.000Z",
+            "date_published": "2022-08-29T13:33:07.000Z",
             "author": {
                 "name": "LG"
             }
         },
         {
-            "id": "https://coderlg.coding.blog/2021-08-28-icbm",
+            "id": "https://im-coder-lg.github.io/codedoc-blog//2021-08-28-icbm",
             "content_html": "The Intercontinental Ballistic Missile Gambit(A06) ...",
-            "url": "https://coderlg.coding.blog/2021-08-28-icbm",
+            "url": "https://im-coder-lg.github.io/codedoc-blog//2021-08-28-icbm",
             "title": "The Intercontinental Ballistic Missile Gambit(A06)",
-            "date_modified": "2022-08-29T13:28:38.000Z",
-            "date_published": "2022-08-29T13:28:38.000Z",
+            "date_modified": "2022-08-29T13:33:07.000Z",
+            "date_published": "2022-08-29T13:33:07.000Z",
             "author": {
                 "name": "LG"
             }
         },
         {
-            "id": "https://coderlg.coding.blog/2021-08-28-zoomboom",
+            "id": "https://im-coder-lg.github.io/codedoc-blog//2021-08-28-zoomboom",
             "content_html": "One strange and scary Zoombooming method ...",
-            "url": "https://coderlg.coding.blog/2021-08-28-zoomboom",
+            "url": "https://im-coder-lg.github.io/codedoc-blog//2021-08-28-zoomboom",
             "title": "One strange and scary Zoombooming method",
-            "date_modified": "2022-08-29T13:28:38.000Z",
-            "date_published": "2022-08-29T13:28:38.000Z",
+            "date_modified": "2022-08-29T13:33:07.000Z",
+            "date_published": "2022-08-29T13:33:07.000Z",
             "author": {
                 "name": "LG"
             }
